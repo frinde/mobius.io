@@ -175,6 +175,7 @@ body {
     height: 530px;
     justify-content: center;
     display: flex;
+    margin-bottom: 70px;
 }
 
 .image-box-outside {
@@ -291,8 +292,29 @@ body {
         margin-right: 0%;
     }
 
+    .title {
+        transform: scale(0.8);
+    }
+
     .slider {
         width: 180%;
+    }
+
+    .boxes {
+        margin-top: 15px;
+        height: 250px;
+    }
+
+    .box-textboxes {
+        margin-top: 125px;
+    }
+
+    .slider-in-container {
+        transform: scaleY(0.9);
+    }
+
+    .slider-contain {
+        margin-left: 5px;
     }
 
     .text-box-image h1 {
@@ -318,8 +340,21 @@ body {
         margin-right: 0%;
     }
 
+    .title {
+        transform: scale(0.7);
+    }
+
+    .scroll-button {
+        display: none;
+    }
+
     .slider {
-        width: 330%;
+        width: 285%;
+    }
+
+    .slider-contain {
+        margin-right: 0%;
+        margin-top: 0%;
     }
 
     .button-in-imagebox {
@@ -328,5 +363,9 @@ body {
 
     .button-in-imagebox h3 {
         display: none;
+    }
+
+    .iconbutton {
+        margin-right: 5px;
     }
  }
