@@ -1,0 +1,332 @@
+body {
+    margin: 0%;
+    font-family: 'Roboto', sans-serif;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+    height: 7px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+
+.main {
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    height: 100vh;
+}
+
+.title {
+    font-family: 'Righteous', cursive;
+    font-size: 2rem;
+    font-weight: 500;
+    margin: 5px;
+    display: block;
+    width: auto;
+    text-align: center;
+}
+
+.title p {
+    margin: 0%;
+    font-size: 0.8rem;
+    color: gray;
+}
+
+.slider-in-container {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.slider-contain {
+    display: flex;
+    width: auto;
+    height: 300px;
+    border-radius: 12px;
+    background-color: rgb(244, 244, 244);
+    margin: 20px;
+    box-shadow: 3px 5px 16px -2px rgba(45,45,45,0.56);
+    -webkit-box-shadow: 3px 5px 16px -2px rgba(45,45,45,0.56);
+    -moz-box-shadow: 3px 5px 16px -2px rgba(45,45,45,0.56);
+    overflow-x: scroll;
+}
+
+.scroll-button {
+    border-radius: 12px;
+    cursor: pointer;
+    font-size: 2rem;
+    height: 300px;
+    color: rgb(64, 64, 64);
+    background-color: rgb(244, 244, 244);
+    box-shadow: 3px 5px 16px -2px rgba(45,45,45,0.56);
+    -webkit-box-shadow: 3px 5px 16px -2px rgba(45,45,45,0.56);
+    -moz-box-shadow: 3px 5px 16px -2px rgba(45,45,45,0.56);
+    border: none;
+    transition: 0.2s;
+}
+
+.scroll-button:hover {
+    background-color: #e2e2e2;
+    color: rgb(0, 0, 0);
+}
+
+.slider {
+    gap: 12px;
+    width: 120%;
+    height: 80%;
+    margin: 20px;
+    align-items: center;
+    display: flex;
+}
+
+.boxes {
+    cursor: pointer;
+    box-shadow: 3px 5px 16px -2px rgba(45,45,45,0.56);
+    -webkit-box-shadow: 3px 5px 16px -2px rgba(45,45,45,0.56);
+    -moz-box-shadow: 3px 5px 16px -2px rgba(45,45,45,0.56);
+    border-radius: 10px;
+    width: 550px;
+    height: 210px;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    background-color: rgb(255, 255, 255);
+    transition: 1s;
+}
+
+.boxes a {
+    font-size: 2rem;
+    color: white;
+    text-align: center;
+    height: 100%;
+    align-items: center;
+    display: flex;
+    text-decoration: none;
+    background-color: rgb(35, 35, 35);
+    padding: 5px;
+}
+
+.boxes a:hover {
+    background-color: black;
+}
+
+#box1 {
+    background-image: url(https://publish.purewow.net/wp-content/uploads/sites/2/2020/03/calming-pictures-cat.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#box2 {
+    background-image: url(https://nextluxury.com/wp-content/uploads/Autumn-Forest.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#box3 {
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+}
+
+.boxes:hover {
+    opacity: 80%;
+    transition: 0.2s;
+}
+
+.box-textboxes {
+    margin-top: 105px;
+    padding-left: 12px;
+    width: 100%;
+    height: 50%;
+    color: rgb(224, 224, 224);
+    background: rgb(41,41,41);
+    background: linear-gradient(0deg, rgba(41,41,41,1) 0%, rgba(255,255,255,0) 68%);
+}
+
+.box-textboxes h1 {
+    margin: 0%;
+    font-size: 2rem;
+}
+
+.box-textboxes p {
+    margin: 0%;
+    font-size: 1rem;
+}
+
+.box-image-main {
+    width: 100%;
+    height: 530px;
+    justify-content: center;
+    display: flex;
+}
+
+.image-box-outside {
+    margin-top: 26px;
+    box-shadow: 3px 5px 16px -2px rgba(45,45,45,0.56);
+    -webkit-box-shadow: 3px 5px 16px -2px rgba(45,45,45,0.56);
+    -moz-box-shadow: 3px 5px 16px -2px rgba(45,45,45,0.56);
+    width: 100%;
+    max-width: 1840px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+}
+
+.box-image {
+    transform: translateY(-30px);
+    margin-right: auto;
+    margin-left: auto;
+    width: 97%;
+    max-width: 1800px;
+    height: 90%;
+    background-image: url(https://p4.wallpaperbetter.com/wallpaper/595/403/802/green-and-yellow-leafed-tree-wallpaper-preview.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 3px 5px 16px -2px rgba(45,45,45,0.56);
+    -webkit-box-shadow: 3px 5px 16px -2px rgba(45,45,45,0.56);
+    -moz-box-shadow: 3px 5px 16px -2px rgba(45,45,45,0.56);
+    border-radius: 12px;
+    overflow: hidden;
+    transition: ease 1s;
+    -webkit-filter:grayscale(70%);
+}
+
+.box-image:hover {
+    -webkit-filter:grayscale(0%);
+    transform: translateY(-25px);
+    transition: ease 0.5s;
+}
+
+.text-box-image {
+    background: rgb(41,41,41);
+    background: linear-gradient(0deg, rgb(19, 19, 19) 0%, rgba(255,255,255,0) 68%);
+    display: block;
+    padding-left: 20px;
+    color: rgb(255, 255, 255);
+    height: 50%;
+    margin-top: 270px;
+}
+
+.text-box-image h1 {
+    margin: 0%;
+    font-size: 3rem;
+}
+
+.text-box-image p {
+    margin: 0%;
+    font-size: 1.8rem;
+}
+
+.text-box-image h5 {
+    margin: 0%;
+    font-weight: 400;
+}
+
+.button-in-imagebox {
+    width: 100%;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    display:  flex;
+    justify-content: space-between;
+}
+
+.button-image-div {
+    cursor: pointer;
+    margin: 12px;
+    width: 170px;
+    height: 50px;
+    transform: scale(0.9);
+    background-color: transparent;
+    border-radius: 50px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    transition: ease 0.6s;
+    color: rgb(86, 86, 86);
+}
+
+.button-image-div a{
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 1.2rem;
+    color: rgb(86, 86, 86);
+}
+
+.button-image-div:hover {
+    background-color: rgb(233, 233, 233);
+}
+
+.iconbutton {
+    margin: 6px;
+    margin-right: 12px;
+    transform: scale(1.8);
+}
+
+@media (max-width:820px)  { 
+    .main {
+        width: 98%;
+        margin: 0px;
+        margin-right: 0%;
+    }
+
+    .slider {
+        width: 180%;
+    }
+
+    .text-box-image h1 {
+        margin: 0%;
+        font-size: 2rem;
+    }
+
+    .text-box-image p {
+        font-size: 1.3rem;
+    }
+
+    .button-in-imagebox {
+        font-size: 11px;
+    }
+
+ }
+
+
+ @media (max-width:489px)  { 
+    .main {
+        width: 98%;
+        margin: 0px;
+        margin-right: 0%;
+    }
+
+    .slider {
+        width: 330%;
+    }
+
+    .button-in-imagebox {
+        font-size: 11px;
+    }
+
+    .button-in-imagebox h3 {
+        display: none;
+    }
+ }
