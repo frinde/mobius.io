@@ -350,10 +350,7 @@ body {
     height: 100%;
     display: flex;
     align-items: center;
-}
-
-.button-box-update div h3 {
-    font-weight: 600;
+    color: gray;
 }
 
 .updated-box-main a{
