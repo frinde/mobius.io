@@ -12,3 +12,7 @@ function sortBoxtable() {
     document.getElementById("grid").style.display = "none";
     document.getElementById("table").style.display = "block";
 }
+
+function closead() {
+    document.getElementById("bannersection").style.display = "none";
+}
