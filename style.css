@@ -55,6 +55,44 @@ body {
     color: gray;
 }
 
+.navigation-main {
+    margin-top: 30px;
+    width: auto;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navigation-central {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    width: 100%;
+    max-width: 1700px;
+    height: 100%;
+    background-color: rgb(247, 247, 247);
+    border-radius: 12px;
+    box-shadow: 3px 5px 16px -2px rgba(45,45,45,0.56);
+    -webkit-box-shadow: 3px 5px 16px -2px rgba(45,45,45,0.56);
+    -moz-box-shadow: 3px 5px 16px -2px rgba(45,45,45,0.56);
+}
+
+.navigation-central a {
+    opacity: 70%;
+    font-weight: 600;
+    border: 2px solid rgb(40, 40, 40);
+    border-radius: 7px;
+    padding: 7px;
+    margin-right: 12px;
+    text-decoration: none;
+    color: black;
+}
+
+.navigation-central a:hover {
+    border: 3px solid rgb(40, 40, 40);
+}
+
 .slider-in-container {
     justify-content: center;
     align-items: center;
