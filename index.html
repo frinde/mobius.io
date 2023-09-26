@@ -21,7 +21,13 @@
 
         <section class="navigation-main">
             <div class="navigation-central">
-                <a href="https://www.buymeacoffee.com/farisikball"><i class="fa-solid fa-mug-saucer"></i> Buy me a Coffee</a>
+
+                <div class="icon-free-nav">
+                    <i class="fa-solid fa-compass"></i>
+                </div>
+                    <a href="#"><i class="fa-solid fa-calendar-day"></i></a>
+
+                    <a href="https://www.buymeacoffee.com/farisikball" onmouseenter="tooltipCoffe()" onmouseleave="tooltipleave()"><i class="fa-solid fa-mug-saucer"></i> <span class="tooltip-donate" id="donatetooltip">Buy Me a Coffee</span></a>
             </div>
         </section>
         
@@ -92,7 +98,7 @@
 
         <section class="updated-box-main" id="boxUpdateMain">
             <section class="button-box-update">
-                <div>
+                <div class="icon-free-nav">
                     <i class="fa-solid fa-server"></i>
                 </div>
                 <button onclick="sortBoxGrid()" title="Grid"><i class="fa-solid fa-table-cells-large sort" ></i></button>
