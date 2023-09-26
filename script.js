@@ -16,3 +16,14 @@ function sortBoxtable() {
 function closead() {
     document.getElementById("bannersection").style.display = "none";
 }
+
+function tooltipCoffe() {
+    var tooltip = document.getElementById("donatetooltip");
+    setTimeout(function() {
+        tooltip.style.display = "block";
+    }, 200);
+}
+
+function tooltipleave() {
+    document.getElementById("donatetooltip").style.display = "none";
+}
