@@ -1,6 +1,14 @@
 function scrolltoright() {
-    var scroll = document.getElementById("scrollable");
-    scroll.scrollLeft += 300
+    var scrolling = document.getElementById("scrollable");
+    var arrow = document.getElementById("arrowScroll");
+    
+    if (scrolling.scrollLeft === 0 ) {
+        scrolling.scrollLeft += 400;
+        arrow.style.transform = "rotate(180deg)"
+    }   else {
+        scrolling.scrollLeft = 0;
+        arrow.style.transform = "rotate(0deg)"
+    }
 }
 
 function sortBoxGrid() {
@@ -26,4 +34,26 @@ function tooltipCoffe() {
 
 function tooltipleave() {
     document.getElementById("donatetooltip").style.display = "none";
+}
+
+        // Cek apakah cookie 'firstVisit' sudah ada
+        function getCookie(name) {
+            const value = `; ${document.cookie}`;
+            const parts = value.split(`; ${name}=`);
+            if (parts.length === 2) return parts.pop().split(';').shift();
+        }
+
+        // Tampilkan pesan selamat datang jika ini adalah kunjungan pertama kali
+        if (!getCookie('firstVisit')) {
+            // Tampilkan div pesan selamat datang
+            const welcomeMessage = document.getElementById('welcome-message');
+            welcomeMessage.style.display = 'flex';
+
+            const expirationDate = new Date();
+            expirationDate.setDate(expirationDate.getDate() + 1);
+            document.cookie = 'firstVisit=true; expires=' + expirationDate.toUTCString();
+        }
+
+function deletemessage() {
+    document.getElementById("welcome-message").style.display = "none"
 }
