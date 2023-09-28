@@ -73,3 +73,13 @@ function bab2() {
     // Scroll to the target div smoothly
     targetDiv.scrollIntoView({ behavior: 'smooth', block: 'center' });
 }
+
+function displayScrollto() {
+    var fileContent = document.getElementById('fileContent');
+    if (fileContent.style.display === "none") {
+        fileContent.style.display = "block";
+    } else {
+        fileContent.style.display = "none"
+    }
+
+}
