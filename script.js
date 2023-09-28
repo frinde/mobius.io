@@ -57,3 +57,19 @@ function tooltipleave() {
 function deletemessage() {
     document.getElementById("welcome-message").style.display = "none"
 }
+
+function bab1() {
+        // Get a reference to the target div
+        var targetDiv = document.getElementById('bab1');
+
+        // Scroll to the target div smoothly
+        targetDiv.scrollIntoView({ behavior: 'smooth', block: 'center' });
+}
+
+function bab2() {
+    // Get a reference to the target div
+    var targetDiv = document.getElementById('bab2');
+
+    // Scroll to the target div smoothly
+    targetDiv.scrollIntoView({ behavior: 'smooth', block: 'center' });
+}
