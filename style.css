@@ -186,6 +186,19 @@ body {
     border-radius: 5px;
 }
 
+.ring {
+    padding: 4px;
+    font-size: 0.6rem;
+    width: 10px;
+    text-align: center;
+    position: absolute;
+    color: white;
+    border-radius: 10px;
+    transform: translate(-3px, -15px);
+    background-color: rgb(224, 33, 33);
+
+}
+
 .slider-in-container {
     justify-content: center;
     align-items: center;
@@ -234,7 +247,6 @@ body {
 }
 
 .boxes {
-    cursor: pointer;
     box-shadow: 3px 5px 16px -2px rgba(45,45,45,0.56);
     -webkit-box-shadow: 3px 5px 16px -2px rgba(45,45,45,0.56);
     -moz-box-shadow: 3px 5px 16px -2px rgba(45,45,45,0.56);
@@ -874,6 +886,10 @@ body {
     .hyperlink-countme-in {
         transform: scale(0.8);
     }
+
+    .navigation-central {
+        font-size: 0.8rem;
+    }
  }
 
 
@@ -970,6 +986,10 @@ body {
     .message-outer {
         height: 100vh;
         border-radius: 0%;
+    }
+
+    .navigation-central {
+        font-size: 0.8rem;
     }
  }
 
