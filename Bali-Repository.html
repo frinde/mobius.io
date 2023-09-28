@@ -15,15 +15,34 @@
 <body>
     <section class="main">
 
+
+
         <a href="index.html" style="text-decoration: none; color:black;"><h1 class="title">MobiUS
-            <p>MOhammad iQbal</p>
+            <p>Repositories</p>
         </h1></a>
+
+        <section class="navigation-main">
+            <div class="navigation-central">
+
+                <div class="icon-free-nav">
+                    <i class="fa-solid fa-compass"></i>
+                </div>
+
+
+                    <a href="#"><i class="fa-solid fa-bell"></i>
+                    <span class="ring">1</span></a>
+
+                    <a href="#"><i class="fa-solid fa-calendar-day"></i></a>
+
+                    <a href="https://www.buymeacoffee.com/farisikball" onmouseenter="tooltipCoffe()" onmouseleave="tooltipleave()"><i class="fa-solid fa-mug-saucer"></i> <span class="tooltip-donate" id="donatetooltip">Buy Me a Coffee</span></a>
+            </div>
+        </section>
 
         <section class="repository-container-main">
             <div class="repository-container">
 
                 <section class="path-text">
-                    <a href="index.html" class="link-path"><strong>Mobius</strong></a> > <a class="link-path" style="color: rgb(123, 123, 123);">Repository</a> > <a href="Bali-Repository.html" class="link-path">Bali Repository</a>
+                    <a href="index.html" class="link-path"><strong>Mobius</strong></a> > <a class="link-path" style="color: rgb(123, 123, 123);">Libraries</a> > <a href="Bali-Repository.html" class="link-path">Bali Repository</a> <i class="fa-solid fa-square-caret-down more" onclick="displayScrollto()"></i>
                 </section>
 
                 <section class="divider">
@@ -32,6 +51,7 @@
 
                         <h1 class="title-repository">Bali Repository</h1>
                         <p class="desc">By <a href="">Iqbal Ramadhan</a></p>
+                        <p class="desc">Highlighted file <a href="">README.md</a></p>
 
                         <div class="story-div">
                             <h2 id="bab1">Tari Barong Bab 1</h2>
@@ -77,7 +97,7 @@
 
                     </div>
 
-                    <div class="file-content">
+                    <div class="file-content" id="fileContent">
                         <h3>scroll to ;</h3>
                         <a href="javascript:void(0);" onclick="bab1()">Bab 1</a>
                         <a href="javascript:void(0);" onclick="bab2()">Bab 2</a>
@@ -91,5 +111,6 @@
     </section>
 
     <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/e1288edb06.js" crossorigin="anonymous"></script>
 </body>
 </html>
