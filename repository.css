@@ -241,7 +241,41 @@ body {
     margin-left: 12px;
     opacity: 60%;
     width: 90%;
-    height: 100%;
+    height: auto;
+}
+
+.file-container-content {
+    font-size: 0.9rem;
+    margin-left: 12px;
+    width: 90%;
+    height: auto;
+}
+
+.main-file-container {
+    display: flex;
+    gap: 12px;
+    flex-direction: column;
+    justify-content: left;
+    float: right;
+    width: 90%;
+    height: 200px;
+}
+
+.div-file-contained {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+    color: black;
+    border-radius: 12px;
+    height: 40px;
+    border: 2px solid black;
+    font-size: 2rem;
+    padding: 10px;
+}
+
+.div-desc-contained {
+    font-size: 1rem;
 }
 
 @media (max-width:1440px){
@@ -293,6 +327,19 @@ body {
     .navigation-central {
         font-size: 0.8rem;
     }
+
+    .file-container-content {
+        font-size: 0.6rem;
+    }
+
+    .div-file-contained {
+        font-size: 1.3rem;
+        padding: 3px;
+    }
+
+    .div-desc-contained {
+        font-size: 0.8rem;
+    }
 }
 
 @media (max-width:489px) {
@@ -320,5 +367,11 @@ body {
 
     .more {
         display:  block;
+    }
+
+    .div-file-contained {
+        border-radius: 5px;
+        padding-left: 12px;
+        border: 1px solid black;
     }
 }
