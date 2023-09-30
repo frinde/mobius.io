@@ -92,3 +92,14 @@ function displayScrollto() {
     }
 
 }
+
+function loadings() {
+    var loadingPage = document.getElementById('loading');
+    var main = document.getElementById('main');
+    setTimeout (function() {
+        loadingPage.style.display = "none";
+        main.style.display = "block";
+    }, 2000);
+}
+
+window.onload = loadings;
