@@ -32,7 +32,27 @@ body {
     background: #555; 
   }
 
+  .loading-pages {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(225, 225, 225);
+}
+
+.must-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 300px;
+    font-size: 3rem;
+}
+
   .main {
+    display: none;
     margin-left: auto;
     margin-right: auto;
     width: 60%;
@@ -148,12 +168,28 @@ body {
 .repository-container {
     background-color: white;
     box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
-    border-radius: 10px;
+    border-radius: 20px;
     width: 100%;
     max-width: 1800px;
     height: 100%;
     overflow: hidden;
     overflow-y: scroll;
+}
+
+.section-images {
+    width: auto;
+    height: 300px;
+    background-image: url(https://publish.purewow.net/wp-content/uploads/sites/2/2020/03/calming-pictures-cat.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.fading-images {
+    padding: 12px;
+    width: auto;
+    height: 100%;
+    background: rgb(255,255,255);
+    background: linear-gradient(0deg, rgba(255,255,255,1) 12%, rgba(255,255,255,0) 60%);
 }
 
 .path-text {
@@ -219,12 +255,6 @@ body {
     color: rgb(49, 49, 49);
 }
 
-.title-repository {
-    margin-top: 12px;
-    font-size: 2rem;
-    margin-bottom: 0%;
-}
-
 .desc {
     padding-bottom: 4px;
     font-size: 0.8rem;
@@ -242,6 +272,10 @@ body {
     opacity: 60%;
     width: 90%;
     height: auto;
+}
+
+.story-div p {
+    text-align: left;
 }
 
 .file-container-content {
@@ -279,9 +313,6 @@ body {
 }
 
 @media (max-width:1440px){
-    .title-repository {
-        font-size: 1.4rem;
-    }
 
     .desc {
         font-size: 0.6rem;
