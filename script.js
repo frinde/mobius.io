@@ -74,6 +74,14 @@ function bab2() {
     targetDiv.scrollIntoView({ behavior: 'smooth', block: 'center' });
 }
 
+function bab3() {
+    // Get a reference to the target div
+    var targetDiv = document.getElementById('bab3');
+
+    // Scroll to the target div smoothly
+    targetDiv.scrollIntoView({ behavior: 'smooth', block: 'center' });
+}
+
 function containedfiles() {
     // Get a reference to the target div
     var targetDiv = document.getElementById('containedFiles');
