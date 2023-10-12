@@ -58,49 +58,6 @@ function deletemessage() {
     document.getElementById("welcome-message").style.display = "none"
 }
 
-function bab1() {
-        // Get a reference to the target div
-        var targetDiv = document.getElementById('bab1');
-
-        // Scroll to the target div smoothly
-        targetDiv.scrollIntoView({ behavior: 'smooth', block: 'center' });
-}
-
-function bab2() {
-    // Get a reference to the target div
-    var targetDiv = document.getElementById('bab2');
-
-    // Scroll to the target div smoothly
-    targetDiv.scrollIntoView({ behavior: 'smooth', block: 'center' });
-}
-
-function bab3() {
-    // Get a reference to the target div
-    var targetDiv = document.getElementById('bab3');
-
-    // Scroll to the target div smoothly
-    targetDiv.scrollIntoView({ behavior: 'smooth', block: 'center' });
-}
-
-function containedfiles() {
-    // Get a reference to the target div
-    var targetDiv = document.getElementById('containedFiles');
-
-    // Scroll to the target div smoothly
-    targetDiv.scrollIntoView({ behavior: 'smooth', block: 'center' });
-}
-
-
-function displayScrollto() {
-    var fileContent = document.getElementById('fileContent');
-    if (fileContent.style.display === "none") {
-        fileContent.style.display = "block";
-    } else {
-        fileContent.style.display = "none"
-    }
-
-}
-
 function loadings() {
     var loadingPage = document.getElementById('loading');
     var main = document.getElementById('main');
