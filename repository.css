@@ -158,28 +158,36 @@ body {
 }
 
 .repository-container-main {
-    display: flex;
+    display:flex;
     justify-content: center;
     width: auto;
-    height: 100%;
+    height: 90%;
     padding: 12px;
 }
 
 .repository-container {
-    background-color: white;
-    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
     border-radius: 20px;
     width: 100%;
     max-width: 1800px;
     height: 100%;
     overflow: hidden;
-    overflow-y: scroll;
+}
+
+.main-cover-image {
+    width: auto;
+    height: 340px;
+    padding: 12px;
+    margin-bottom: 12px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 12px;
 }
 
 .section-images {
+    border-radius: 12px;
     width: auto;
     height: 300px;
-    background-image: url(https://publish.purewow.net/wp-content/uploads/sites/2/2020/03/calming-pictures-cat.jpg);
+    background-image: url(https://oceanmanswim.com/wp-content/uploads/2022/04/tablet_bali_2023-scaled.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -225,17 +233,18 @@ body {
 .divider {
     width: 100%;
     height: 100%;
-    background-color: white;
-    display: flex;
-    justify-content: space-between;
 }
 
 .section-content {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin-top: 30px;
+    border-radius: 12px;
     overflow-y: scroll;
     padding: 12px;
     width: 100%;
-    height: 100%;
-    background-color: white;
+    height: 50%;
+    color: rgb(58, 58, 58);
+    background-color: #ffffff;
 }
 
 .file-content {
@@ -306,19 +315,11 @@ body {
     border: 2px solid black;
     font-size: 2rem;
     padding: 10px;
+    margin-bottom: 0px;
 }
 
 .div-desc-contained {
     font-size: 1rem;
-}
-
-#disqus_thread {
-    margin-top: 120px;
-    border-radius: 10px;
-    margin: 5px;
-    background-color: white;
-    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
-    padding: 12px;
 }
 
 @media (max-width:1440px){
